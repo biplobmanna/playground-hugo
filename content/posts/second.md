@@ -1,18 +1,18 @@
 +++
-title = "First"
-date = "2022-08-15T11:48:04+05:30"
+title = "Second"
+date = "2022-08-16T12:29:14+05:30"
 author = "biplobmanna"
 authorTwitter = "biplobmanna" #do not include @
 cover = ""
-tags = ["post", "first"]
+tags = ["posts", ""]
 keywords = ["", ""]
-description = "first hugo post to play around with"
+description = ""
 showFullContent = false
 readingTime = false
-hideComments = false
+hideComments = true
 +++
 
-Just some random content for the basic Hugo site.
+Just some random post content for the basic Hugo site.
 
 Loreum ipsum dolor sit amet. Loreum ipsum dolor sit amet. Loreum ipsum dolor sit amet. Loreum ipsum dolor sit amet. Loreum ipsum dolor sit amet. Loreum ipsum dolor sit amet. Loreum ipsum dolor sit amet. Loreum ipsum dolor sit amet. Loreum ipsum dolor sit amet. Loreum ipsum dolor sit amet. Loreum ipsum dolor sit amet. Loreum ipsum dolor sit amet. Loreum ipsum dolor sit amet. Loreum ipsum dolor sit amet. Loreum ipsum dolor sit amet. Loreum ipsum dolor sit amet. Loreum ipsum dolor sit amet. Loreum ipsum dolor sit amet. Loreum ipsum dolor sit amet. Loreum ipsum dolor sit amet. Loreum ipsum dolor sit amet. Loreum ipsum dolor sit amet. Loreum ipsum dolor sit amet. Loreum ipsum dolor sit amet. Loreum ipsum dolor sit amet. Loreum ipsum dolor sit amet. Loreum ipsum dolor sit amet. Loreum ipsum dolor sit amet. Loreum ipsum dolor sit amet. Loreum ipsum dolor sit amet. Loreum ipsum dolor sit amet. Loreum ipsum dolor sit amet. Loreum ipsum dolor sit amet. Loreum ipsum dolor sit amet. Loreum ipsum dolor sit amet. Loreum ipsum dolor sit amet. Loreum ipsum dolor sit amet. Loreum ipsum dolor sit amet. Loreum ipsum dolor sit amet. Loreum ipsum dolor sit amet.
 
