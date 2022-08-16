@@ -120,15 +120,23 @@ Overwriting that in `layouts` <br>
 * `Paginator` or `Paginate` is static, i.e, once instance is declared, it persists
   * [Detains on Pagination](https://gohugo.io/templates/pagination/)
   * caused a lot of issue while trying to put all `RegularPages` into `Paginator`
-  * used logic `section != null` so that all pages of all sections are auto-populated
-  ![alter config.toml parameters](/static/img/screenshot-10-08-2022-playground-hugo-vscode-config-show-sections.png "show all sections config.toml param") <br>
-
-  ![homepage logic](/static/img/screenshot-10-08-2022-playground-hugo-vscode-homepage-logic.png "homepage logic")
   * to override the `Paginator` from the theme, renamed `theme/terminal/layouts` and reverted once new build was done
+  * used logic `section != null` so that all pages of all sections are auto-populated
+
+`config.toml` showing all sections toggle:
+![alter config.toml parameters](/static/img/screenshot-10-08-2022-playground-hugo-vscode-config-show-sections.png "show all sections config.toml param") <br>
+
+`index.html` showing logic for toggle
+![homepage logic](/static/img/screenshot-10-08-2022-playground-hugo-vscode-homepage-logic.png "homepage logic")
+
 * Added logic to `index.html` to show all pages, or pages of single section on the Home Page.
+
+All pages on Homepage:
 ![All 4 Pages shown in the Homepage](/static/img/screenshot-10-08-2022-hugo-playground-homepage-all-pages.png "All pages on Home Page")
+
+Pages of only Posts:
 ![Pages of only Posts](/static/img/screenshot-10-08-2022-hugo-playground-homepage-single-page.png "Pages of only Posts")
+
 * Be careful of [Hugo Layout Lookup Order](https://gohugo.io/templates/lookup-order/)
 * Funky use of [where](https://gohugo.io/functions/where/) and [in](https://gohugo.io/functions/in/#readout) functions.
 * [Adding different sections is as simple as adding folders/subfolders](https://gohugo.io/content-management/sections/) inside `content/`
-
