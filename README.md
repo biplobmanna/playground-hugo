@@ -123,18 +123,18 @@ Overwriting that in `layouts` <br>
   * to override the `Paginator` from the theme, renamed `theme/terminal/layouts` and reverted once new build was done
   * used logic `section != null` so that all pages of all sections are auto-populated
 
-`config.toml` showing all sections toggle:
-![alter config.toml parameters](/static/img/screenshot-10-08-2022-playground-hugo-vscode-config-show-sections.png "show all sections config.toml param") <br>
+`config.toml` showing all sections toggle:<br>
+![alter config.toml parameters](/static/img/screenshot-10-08-2022-playground-hugo-vscode-config-show-sections.png "show all sections config.toml param")<br>
 
-`index.html` showing logic for toggle
+`index.html` showing logic for toggle <br>
 ![homepage logic](/static/img/screenshot-10-08-2022-playground-hugo-vscode-homepage-logic.png "homepage logic")
 
 * Added logic to `index.html` to show all pages, or pages of single section on the Home Page.
 
-All pages on Homepage:
+All pages on Homepage:<br>
 ![All 4 Pages shown in the Homepage](/static/img/screenshot-10-08-2022-hugo-playground-homepage-all-pages.png "All pages on Home Page")
 
-Pages of only Posts:
+Pages of only Posts:<br>
 ![Pages of only Posts](/static/img/screenshot-10-08-2022-hugo-playground-homepage-single-page.png "Pages of only Posts")
 
 * Be careful of [Hugo Layout Lookup Order](https://gohugo.io/templates/lookup-order/)
